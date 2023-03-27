@@ -12,10 +12,10 @@
 		1D8A529B2979DA840086A6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A529A2979DA840086A6B9 /* Assets.xcassets */; };
 		1D8A529E2979DA840086A6B9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A529D2979DA840086A6B9 /* Preview Assets.xcassets */; };
 		1D8A52A92979E02D0086A6B9 /* yugiohCards.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A52A82979E02D0086A6B9 /* yugiohCards.json */; };
-		1D8A52AD2979E2EC0086A6B9 /* JadenYukiDeck.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D8A52AC2979E2EC0086A6B9 /* JadenYukiDeck.json */; };
 		1D93587B297B23F6005B43AA /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D93587A297B23F6005B43AA /* JSONManager.swift */; };
 		1D93587F297B3083005B43AA /* CardDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D93587E297B3083005B43AA /* CardDetailView.swift */; };
 		1D935881297B5DCA005B43AA /* ExpandedCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D935880297B5DCA005B43AA /* ExpandedCardView.swift */; };
+		1D9496B129D231D3004F57E8 /* deck.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D9496B029D231D3004F57E8 /* deck.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,10 +25,10 @@
 		1D8A529A2979DA840086A6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D8A529D2979DA840086A6B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D8A52A82979E02D0086A6B9 /* yugiohCards.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = yugiohCards.json; sourceTree = "<group>"; };
-		1D8A52AC2979E2EC0086A6B9 /* JadenYukiDeck.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JadenYukiDeck.json; sourceTree = "<group>"; };
 		1D93587A297B23F6005B43AA /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
 		1D93587E297B3083005B43AA /* CardDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailView.swift; sourceTree = "<group>"; };
 		1D935880297B5DCA005B43AA /* ExpandedCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedCardView.swift; sourceTree = "<group>"; };
+		1D9496B029D231D3004F57E8 /* deck.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = deck.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +61,8 @@
 		1D8A52952979DA810086A6B9 /* YuGiOhDB */ = {
 			isa = PBXGroup;
 			children = (
-				1D935879297B23E2005B43AA /* Manager */,
 				1D8A52962979DA810086A6B9 /* YuGiOhDBApp.swift */,
+				1D935879297B23E2005B43AA /* Manager */,
 				1D935873297B1AC8005B43AA /* Views */,
 				1D8A52A72979E00D0086A6B9 /* Data */,
 				1D8A529A2979DA840086A6B9 /* Assets.xcassets */,
@@ -75,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				1D8A529D2979DA840086A6B9 /* Preview Assets.xcassets */,
-				1D8A52AC2979E2EC0086A6B9 /* JadenYukiDeck.json */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -84,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				1D8A52A82979E02D0086A6B9 /* yugiohCards.json */,
+				1D9496B029D231D3004F57E8 /* deck.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -164,8 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D9496B129D231D3004F57E8 /* deck.json in Resources */,
 				1D8A529E2979DA840086A6B9 /* Preview Assets.xcassets in Resources */,
-				1D8A52AD2979E2EC0086A6B9 /* JadenYukiDeck.json in Resources */,
 				1D8A529B2979DA840086A6B9 /* Assets.xcassets in Resources */,
 				1D8A52A92979E02D0086A6B9 /* yugiohCards.json in Resources */,
 			);

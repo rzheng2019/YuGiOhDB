@@ -28,7 +28,7 @@ struct Card: Codable {
         case cardPrices = "card_prices"
     }
     
-    static let deck: [Card] = Bundle.main.decode(file: "JadenYukiDeck.json")
+    static let deck: [Card] = Bundle.main.decode(file: "deck.json")
     static let sampleCard : Card = deck[0]
 }
 
