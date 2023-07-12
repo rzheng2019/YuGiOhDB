@@ -4,7 +4,7 @@
 
 Yu-Gi-Oh DB is a native iOS application that displays a deck of cards from YGOPRODeck public API.
 
-![]()
+![](https://github.com/rzheng2019/YuGiOhDB/blob/main/YuGiOhDBGIF.gif)
 
 ## Getting Started
 
