@@ -16,7 +16,7 @@ Yu-Gi-Oh DB is a native iOS application that displays a deck of cards from YGOPR
 
 ## Structure
 
-- "Manager": Files that cointain the models for what a hobby consists of.
+- "Manager": Files that decode API card data.
 - "Views": Files that display the content view for the deck listing and detailed card view.
 - "Data": Files that contain JSON data for deck of cards that were displayed.
 
