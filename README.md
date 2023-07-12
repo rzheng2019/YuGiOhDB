@@ -14,11 +14,6 @@ Yu-Gi-Oh DB is a native iOS application that displays a deck of cards from YGOPR
 4. Click on card name within list and view detailed card view.
 5. (Optional) Click on card image for an expanded image view.
 
-## Architecture
-
-- Hobby Tracker was implemented using Model View View-Model (MVVM) archiecture.
-- Firebase Firestore was used to store hobby list data.
-
 ## Structure
 
 - "Manager": Files that cointain the models for what a hobby consists of.
